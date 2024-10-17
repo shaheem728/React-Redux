@@ -1,0 +1,24 @@
+
+.image{
+    height:300px;
+    width:300px;
+    object-fit: contain; 
+}
+.main_contain{
+    height: 550px;
+}
+
+@media screen and (max-width: 800px){
+    .main_contain{
+        height: 950px;
+    }
+    .image{
+        height:150px;
+        width:150px;
+        object-fit: contain;
+    }
+    .text-size{
+        font-size: x-small;
+    }
+    
+}
