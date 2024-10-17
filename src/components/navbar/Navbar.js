@@ -13,7 +13,7 @@ const Header = ({ onOpenModal }) => {
       <div className="collapse navbar-collapse" id="navbarsExample04">
         <ul className="navbar-nav me-auto mb-2 mb-md-0">
           <li className="nav-item">
-            <NavLink className="nav-link active fw-bold fs-4 mx-3" aria-current="page" to="/">ONLINE SHOP</NavLink>
+            <NavLink className="nav-link active fw-bold fs-4 mx-3" aria-current="page" to="/React-Redux">ONLINE SHOP</NavLink>
           </li>
           <li className="nav-item">
             <NavLink className="nav-link  mt-2 " to="/products">Products</NavLink>
@@ -32,7 +32,6 @@ const Header = ({ onOpenModal }) => {
         <div className="text-end d-flex">
         <button type="button" className="btn btn-outline-light ms-3 me-2 s" onClick={onOpenModal}>Login</button>
 
-          {/* <Login/> */}
           <button type="button" className="btn btn-warning">Sign-up</button>
         </div>
       </div>

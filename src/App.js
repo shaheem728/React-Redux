@@ -21,7 +21,7 @@ function App() {
       <div className="contents">
       <Login show={showModal} onClose={() => setShowModal(false)} />        
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/React-Redux" element={<Home />} />
           <Route path='/products' element={<Productlist />} />
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
