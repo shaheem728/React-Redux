@@ -1,3 +1,8 @@
+
+#Deployment 
+
+open the link [https://shaheem728.github.io/React-Redux/]  to view it in your browser.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
